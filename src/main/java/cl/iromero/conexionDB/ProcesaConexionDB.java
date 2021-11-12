@@ -40,7 +40,7 @@ public class ProcesaConexionDB {
 		return conn;
 	}
 	
-	//SINGLETON verifica que exista la conexion para no establecer una nueva
+	//SINGLETON verifica que exista la conexion para no establecer una nueva cada vez
 	protected Connection generaPoolConexion() {
 		Context initContext;
 		if (conn == null) {

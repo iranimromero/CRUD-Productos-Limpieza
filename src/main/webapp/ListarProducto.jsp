@@ -20,8 +20,8 @@
     request.setAttribute("lista", lista);
     System.out.println(lista);
     %>-->
- 
-    <table>
+ 	<section class="container">
+    <table class="table table-striped table-hover">
  
         <tr>
             <th>Id Producto</th>
@@ -44,6 +44,7 @@
         </table>
 
 	<br><a href="PaginaInicio">Volver al Inicio</a>
+	</section>
 
 	<!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
